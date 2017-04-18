@@ -1,3 +1,10 @@
+# container usage
+```
+docker run -ti --rm kiney/rowhammer-test
+```
+
+If it sees a bit flip, it exits.  If it never sees a bit flip, it will run forever.
+
 
 # Program for testing for the DRAM "rowhammer" problem
 
